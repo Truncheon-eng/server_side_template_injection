@@ -4,6 +4,7 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y dnsutils
 
 COPY app/ .
+COPY flag.txt /
 COPY requirements.txt .
 
 
