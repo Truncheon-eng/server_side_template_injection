@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.object-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.object {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.object h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.object p {
+    margin: 10px 0;
+    font-size: 1em;
+    color: #666;
+}
+
+.object .age {
+    font-weight: bold;
+    color: #007BFF;
+}

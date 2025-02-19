@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список работников</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="object-container">
+        <div class="object">
+            <h2>Иван</h2>
+            <p><span class="age">Возраст:</span> 25 лет</p>
+            <p><span class="description">Описание:</span> Молодой и амбициозный разработчик.</p>
+        </div>
+
+        <div class="object">
+            <h2>Дарья</h2>
+            <p><span class="age">Возраст:</span> 30 лет</p>
+            <p><span class="description">Описание:</span> Опытный дизайнер с креативным подходом.</p>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
