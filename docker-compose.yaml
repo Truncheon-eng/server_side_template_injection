@@ -3,4 +3,4 @@ services:
     build: .
     container_name: ssti_vuln
     ports:
-      - "9000:9000"
+      - "9001:9000"
